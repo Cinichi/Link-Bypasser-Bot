@@ -116,7 +116,7 @@ if Get_ENV == False:
     check()
 elif Get_ENV == True:
     log.info("Getting Values from System Environment...")
-    TOKEN = os.environ.get("TOKEN","5774804662:AAH9VyaphiayvrFwqElHliHb281zYOzM1GA")
+    TOKEN = os.environ.get("TOKEN","")
     GDTot_Crypt = os.environ.get("Crypt","")
     Laravel_Session = os.environ.get("Laravel_Session","")
     XSRF_TOKEN = os.environ.get("XSRF_TOKEN","")

@@ -4,7 +4,7 @@ Get_ENV = False
 # Required if Get_ENV == False
 Vars = [
     # Bot API Token
-    "",
+    "5774804662:AAH9VyaphiayvrFwqElHliHb281zYOzM1GA",
     # GdToT Crypt
     "",
     # Laravel Session
@@ -116,7 +116,7 @@ if Get_ENV == False:
     check()
 elif Get_ENV == True:
     log.info("Getting Values from System Environment...")
-    TOKEN = os.environ.get("TOKEN","")
+    TOKEN = os.environ.get("TOKEN","5774804662:AAH9VyaphiayvrFwqElHliHb281zYOzM1GA")
     GDTot_Crypt = os.environ.get("Crypt","")
     Laravel_Session = os.environ.get("Laravel_Session","")
     XSRF_TOKEN = os.environ.get("XSRF_TOKEN","")
